@@ -33,7 +33,11 @@ function App() {
   }
   return (
     <div>
-      
+      <div className="inst">
+        <h1>Here you can reserve sits like in the cinema</h1>
+        <div><span className="red-mark"></span> - means sits has been alredy reserved</div>
+        <div><span className="green-mark"></span> - means sits is empty</div>
+      </div>
       {/* displaying out sits */}
       <div className="sits">
         {sits.map((e) => {

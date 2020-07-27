@@ -33,4 +33,31 @@
   text-align: center;
 }
 
+.red-mark:before {
+  content: "";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 4px;
+}
+
+.green-mark:before {
+  content: "";
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 4px;
+}
+
+.inst {
+  margin: 3rem auto;
+  text-align: center;
+}
+
 
